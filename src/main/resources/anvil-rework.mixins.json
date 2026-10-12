@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "ca.bonzi.anvil_rework.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AnvilMenuMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
